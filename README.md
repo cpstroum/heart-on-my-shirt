@@ -1,6 +1,6 @@
-# Variable Beaming Heart
+# Wearable Electronics Shirt: the Variable Beaming Heart
 
-Button-cycled NeoPixel heart animation for Adafruit Flora (legacy).
+A Button-cycled NeoPixel heart animation for Adafruit Flora (legacy). This shows the SCAN Health Plan logo with its 12 beaming hearts, 4 of which are LED strips with lighting patterns.
 
 ## Photo
 ![Heart on my shirt](images/shirt-photo.png)
@@ -20,14 +20,19 @@ Button-cycled NeoPixel heart animation for Adafruit Flora (legacy).
 - 4-pixel NeoPixel strip/ring.
 - Momentary push button.
 - Jumper wires.
-- Optional external 5V supply for cleaner LED power.
+- External 5V supply for cleaner LED power with 2-pin jst connector.
 
 ## Wiring
+Solder below:
 - NeoPixel `DIN` -> `D6`
 - NeoPixel `VCC` -> `5V`
-- NeoPixel `GND` -> `GND`
+- NeoPixel `GND` -> `GND
+  
+Using copper conductive thread in the sewing machine, stitch below:
 - Button leg 1 -> `D10`
 - Button leg 2 -> `GND`
+
+Power supply is directly plugged into the 2-pin jst connector
 
 Note: The sketch uses `INPUT_PULLUP`, so the button is active-low (`LOW` when pressed).
 
