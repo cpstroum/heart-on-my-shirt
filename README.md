@@ -2,6 +2,9 @@
 
 Button-cycled NeoPixel heart animation for Adafruit Flora (legacy).
 
+## Photo
+![Heart on my shirt](images/shirt-photo.png)
+
 ## Features
 - Three LED effects: traveling red pulse, rainbow cycle, and white sparkle.
 - Button press advances to the next effect.
